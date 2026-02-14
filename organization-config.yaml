@@ -1,0 +1,8 @@
+enable: true
+organizationalUnits:
+  - name: Security
+  - name: Suspect
+    # ignore: true
+serviceControlPolicies: []
+taggingPolicies: []
+backupPolicies: []

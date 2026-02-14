@@ -1,0 +1,42 @@
+mandatoryAccounts:
+  - name: Management
+    description: >-
+      The management (primary) account. Do not change the name field for this
+      mandatory account. Note, the account name key does not need to match the
+      AWS account name.
+    email: psanthg+bootcamp@amazon.com
+    organizationalUnit: Root
+    warm: false
+  - name: LogArchive
+    description: >-
+      The log archive account. Do not change the name field for this mandatory
+      account. Note, the account name key does not need to match the AWS account
+      name.
+    email: psanthg+logging@amazon.com
+    organizationalUnit: Security
+    warm: false
+  - name: Audit
+    description: >-
+      The security audit account (also referred to as the audit account). Do not
+      change the name field for this mandatory account. Note, the account name
+      key does not need to match the AWS account name.
+    email: psanthg+auditing@amazon.com
+    organizationalUnit: Security
+    warm: false
+workloadAccounts:
+  - name: AFT-Management
+    description: >-
+      The management (primary) account. Do not change the name field for this
+      mandatory account. Note, the account name key does not need to match the
+      AWS account name.
+    email: psanthg+AFTManagementaccnt@amazon.com
+    organizationalUnit: Root
+    warm: false
+  # - name: aft-main
+  #   description: >-
+  #     The management (primary) account. Do not change the name field for this
+  #     mandatory account. Note, the account name key does not need to match the
+  #     AWS account name.
+  #   email: psanthg+aftact@amazon.com
+  #   organizationalUnit: AFT management account
+  #   warm: false
