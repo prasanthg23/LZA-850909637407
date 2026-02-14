@@ -23,15 +23,15 @@ mandatoryAccounts:
     email: psanthg+auditing@amazon.com
     organizationalUnit: Security
     warm: false
-workloadAccounts:
-  - name: AFT-Management
-    description: >-
-      The management (primary) account. Do not change the name field for this
-      mandatory account. Note, the account name key does not need to match the
-      AWS account name.
-    email: psanthg+AFTManagementaccnt@amazon.com
-    organizationalUnit: Suspect
-    warm: false
+workloadAccounts: []
+  # - name: AFT-Management
+  #   description: >-
+  #     The management (primary) account. Do not change the name field for this
+  #     mandatory account. Note, the account name key does not need to match the
+  #     AWS account name.
+  #   email: psanthg+AFTManagementaccnt@amazon.com
+  #   organizationalUnit: Suspect
+  #   warm: false
   # - name: aft-main
   #   description: >-
   #     The management (primary) account. Do not change the name field for this
