@@ -30,7 +30,7 @@ workloadAccounts:
       mandatory account. Note, the account name key does not need to match the
       AWS account name.
     email: psanthg+AFTManagementaccnt@amazon.com
-    organizationalUnit: Root
+    organizationalUnit: Suspect
     warm: false
   # - name: aft-main
   #   description: >-
