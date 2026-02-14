@@ -2,7 +2,7 @@ enable: true
 organizationalUnits:
   - name: Security
   - name: Suspect
-    # ignore: true
+    ignore: true
 serviceControlPolicies: []
 taggingPolicies: []
 backupPolicies: []
